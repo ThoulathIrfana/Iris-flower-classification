@@ -16,7 +16,7 @@ The classification is based on petal and sepal dimensions using the **Iris datas
 
 ## 🧠 Technologies Used
 - 💻 Python
-- 📊 Jupyter Notebook
+- 📊 Jupyter Notebook (if using a notebook environment)
 - 🧪 scikit-learn
 - 🧮 pandas
 - 📈 matplotlib, seaborn
@@ -25,15 +25,32 @@ The classification is based on petal and sepal dimensions using the **Iris datas
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository or download the files.
-2. Open `iris_classifier.ipynb` in **Jupyter Notebook** or **Google Colab**.
-3. Run all cells step-by-step to view:
-   - Data preprocessing
-   - Model training
-   - Model evaluation
+1. **Python Script**:  
+   Clone the repository or download the files. Run the Python script:
 
-```bash
-pip install pandas scikit-learn matplotlib seaborn
+   ```bash
+   python iris_classifier.py
+   ```
+
+   Make sure to install required libraries first:
+
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn
+   ```
+
+2. **HTML File**:  
+   If you prefer to view the outputs in a web-friendly format, open the `iris_classifier.html` file in a web browser. It contains the same results as the Python script.
+
+---
+
+## 📁 Project Files
+
+The project includes the following files:
+
+```
+├── iris_classifier.py       # Python script with model code
+├── README.md                # Project documentation
+├── iris_classifier.html     # Exported HTML version of the results
 ```
 
 ---
@@ -61,12 +78,15 @@ pip install pandas scikit-learn matplotlib seaborn
 
 ---
 
-## 📁 Project Files
+## 🧾 Script File
 
+If you prefer to run the project as a Python script (instead of a notebook), use:
+
+```bash
+python iris_classifier.py
 ```
-├── iris_classifier.py          # Notebook with full code and output
-├── README.md                   # Project documentation
-```
+
+Make sure to install required libraries before running.
 
 ---
 
@@ -79,7 +99,7 @@ pip install pandas scikit-learn matplotlib seaborn
 ## 🙋‍♀️ Submitted By
 
 **Thoulath Irfana M**  
-🌐 Internship Track: **Data Science**  
+🌐 Internship Track: **Data Science & Analytics**  
 📅 Submission for: **Growth Link Internship - Iris Flower Classification Task**
 
 ---
